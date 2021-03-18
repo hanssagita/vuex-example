@@ -4,8 +4,8 @@ const state = {
   people: []
 };
 const mutations = {
-  setPeople(state, value) {
-    state.people = [...value];
+  setPeople(state, payload) {
+    state.people = [...payload];
   }
 };
 const actions = {

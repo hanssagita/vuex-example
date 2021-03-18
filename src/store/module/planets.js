@@ -4,8 +4,8 @@ const state = {
   planets: []
 };
 const mutations = {
-  setPlanets(state, value) {
-    state.planets = [...value];
+  setPlanets(state, payload) {
+    state.planets = [...payload];
   }
 };
 const actions = {
